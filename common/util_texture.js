@@ -208,6 +208,7 @@ GLUtil.create_camera_texture = function (gl)
     const constraints = {
         audio : false,
         video: {
+            facingMode: 'environment',
             width:  {ideal: 640},
             height: {ideal: 480}
         }
