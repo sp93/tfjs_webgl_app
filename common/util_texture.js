@@ -209,8 +209,8 @@ GLUtil.create_camera_texture = function (gl)
         audio : false,
         video: {
             facingMode: 'environment',
-            width:  {ideal: 640},
-            height: {ideal: 480}
+            width:  {ideal: 320},
+            height: {ideal: 240}
         }
     };
 
